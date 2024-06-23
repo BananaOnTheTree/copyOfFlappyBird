@@ -64,7 +64,7 @@ SOFTWARE.
 #define PHYSICS_UNIT_MOVE (1 / 350.0)
 #define PHYSICS_UNIT_MOVE_RATE(reference) ((reference) * PHYSICS_UNIT_MOVE)
 
-#define AI_ENABLED FALSE // Enable AI here
+#define AI_ENABLED TRUE // Enable AI here
 #define AI_DEFAULT_NEURONCOUNT 16
 #define AI_DEFAULT_BATCHSIZE 16
 #define AI_DEFAULT_EPOCHS 1000
