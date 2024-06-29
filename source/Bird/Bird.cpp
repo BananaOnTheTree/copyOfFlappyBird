@@ -126,8 +126,8 @@ void Bird::setColor(BirdTypes type)
 void Bird::gravitation()
 {
     birdDesigner->setInterval(85);
-
-    rotate(90, 675, QEasingCurve::InCubic);
+    QEasingCurve curve = QEasingCurve::InCubic;
+    rotate(90, 675, curve);
 
     qreal endPos = groundYPos;
     qreal curPosY = y();
